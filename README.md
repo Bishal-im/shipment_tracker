@@ -1,129 +1,68 @@
 🌐 Deployment
+Deploy to Vercel: https://shipmenttracker-gold.vercel.app/
 
-🔗 Live Demo: https://shipmenttracker-gold.vercel.app/
+✨ Key Features Implementation:-
 
-✨ Key Features & Implementation
-Authentication (Part 1)
-
-Robust form validation for email & password
-
-Clean, user-friendly UI with proper error states
-
-Automatic redirection to the dashboard upon successful login
+Authentication (Part 1):-
+• Form validation for email and password
+• Clean UI with clear error states
+• Redirects to dashboard on successful login
 
 Dashboard (Part 2)
-📌 Overview Cards
-
-Displays key shipment statistics at a glance
-
-📌 Advanced Table Features
-
-Search shipments by ID or Product Name
-
-Sorting enabled for:
-
-Shipment ID
-
-Product Name
-
-Status
-
-Last Updated
-
-Pagination (5 items per page) for smooth navigation
+• Overview cards showing key shipment statistics
+• Fully featured table with:
+– Search by ID or Product Name
+– Sorting on ID, Product Name, Status, and Last Updated
+– Pagination (5 items per page)
 
 Shipment Details (Part 3)
-
-Dynamic routing: /shipment/[id]
-
-Visual timeline showing real-time order progress
-
-High-quality product image display
-
-Recent 5 activity logs
-
-Status badges with meaningful color coding
+• Dynamic routing (/shipment/[id])
+• Visual timeline representing order progress
+• Product image preview
+• Last 5 activity logs
+• Status badge with color-coded UI
 
 API Integration (Part 4)
-
-Smooth loading states with animated spinner
-
-Full error handling + retry option
-
-Clean async/await data fetching flow
-
-Organized state management for reliability
+• Loading states with spinner
+• Error handling with retry button
+• Clean async/await data fetching
+• Proper state management for smooth UI flow
 
 UI/UX (Part 5)
-
-100% responsive layout for mobile, tablet, and desktop
-
-Modern, minimalistic design
-
-Reusable, modular components
-
-Professional folder structure
-
-Status color badges for quick insights
+• Fully responsive across all devices
+• Modern, minimal, clean design
+• Reusable components for scalability
+• Professional folder structure
+• Color-coded status badges for clarity
 
 🎨 Design Highlights
-Color Scheme
+• Color Scheme: Indigo primary with status-based colors
+• Typography: Clean, legible font hierarchy
+• Spacing: Consistent padding and margins
+• Interactions: Smooth transitions and hover effects
+• Status Colors:
+– 🟢 Delivered
+– 🟡 In Transit
+– 🔴 Delayed
+– 🔵 Ordered
 
-Indigo primary theme
-
-Status-specific colors
-
-Status Colors
-
-🟢 Green: Delivered
-
-🟡 Yellow: In Transit
-
-🔴 Red: Delayed
-
-🔵 Blue: Ordered
-
-Typography & Spacing
-
-Clean, readable font hierarchy
-
-Consistent spacing across layout
-
-Smooth hover animations & transitions
-
-📊 Performance Optimizations
-
-Client-side rendering for fast interactions
-
-Image optimization using Next.js Image component
-
-Efficient state management with useMemo
-
-Faster page loads using Next.js App Router
+📊 Performance
+• Client-side rendering for fast interactions
+• Optimized images with Next.js Image component
+• Efficient state management with useMemo
+• Fast page loads with App Router
 
 🔧 Configuration
-
-Tailwind CSS fully configured (tailwind.config.ts)
-
-TypeScript with strict mode enabled
-
-ESLint set up for code quality and standards
+• Tailwind CSS pre-configured in tailwind.config.ts
+• TypeScript strict mode enabled in tsconfig.json
+• ESLint set up for code quality checks
 
 🐛 Troubleshooting
-Images not loading?
-
-Check next.config.js and ensure correct image domains are added.
-
-Build errors?
-
-Run npm install to confirm all dependencies
-
-Delete the .next folder and rebuild your project
+Issue: Images not loading → Check next.config.js for correct image domains
+Issue: Build errors → Run npm install and delete .next folder before rebuilding
 
 📝 License
-
-This project is developed for the Snipe Blockchain Technical Assessment.
+This project is created for the Snipe Blockchain Technical Assessment.
 
 👨‍💻 Developer
-
-Built with ❤️ for the Snipe Blockchain Frontend Developer Assessment.
+Built with ❤️ for the Snipe Blockchain Frontend Developer Assessment
