@@ -70,6 +70,22 @@ https://shipment-tracker-chi.vercel.app/
         └── shipments.json  # Mock API data
 
 
+├── app/
+│ ├── dashboard/             # Dashboard page
+│ ├── shipment/[id]/         # Dynamic shipment details
+│ ├── signup/                # Signup page
+│ ├── page.tsx               # Login page
+│ └── layout.tsx             # Root layout
+├── components/
+│ ├── dashboard/             # Dashboard components
+│ └── Navbar.tsx             # Navigation
+├── lib/
+│ └── AuthContext.tsx        # Authentication context
+└── public/
+  └── data/
+  └── shipments.json         # Mock API data
+
+
 ---
 
 ## 🎨 Design Highlights
