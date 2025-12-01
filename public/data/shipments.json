@@ -1,0 +1,196 @@
+{
+  "shipments": [
+    {
+      "id": "SH001",
+      "productName": "iPhone 15 Pro",
+      "source": "Cupertino, CA",
+      "destination": "New York, NY",
+      "status": "delivered",
+      "lastUpdated": "2024-11-28T10:30:00Z",
+      "estimatedDelivery": "2024-11-28",
+      "productImage": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-20T08:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-21T10:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-22T14:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-23T09:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": "2024-11-28T10:30:00Z", "completed": true }
+      ],
+      "logs": [
+        { "event": "Package delivered successfully", "timestamp": "2024-11-28T10:30:00Z" },
+        { "event": "Out for delivery", "timestamp": "2024-11-28T07:00:00Z" },
+        { "event": "Arrived at destination facility", "timestamp": "2024-11-27T16:00:00Z" },
+        { "event": "In transit to destination", "timestamp": "2024-11-25T11:00:00Z" },
+        { "event": "Package dispatched from warehouse", "timestamp": "2024-11-22T14:00:00Z" }
+      ]
+    },
+    {
+      "id": "SH002",
+      "productName": "MacBook Air M3",
+      "source": "Shanghai, China",
+      "destination": "London, UK",
+      "status": "in_transit",
+      "lastUpdated": "2024-11-30T15:45:00Z",
+      "estimatedDelivery": "2024-12-05",
+      "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-25T12:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-26T09:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-27T11:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-28T08:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": null, "completed": false }
+      ],
+      "logs": [
+        { "event": "Package in transit", "timestamp": "2024-11-30T15:45:00Z" },
+        { "event": "Customs clearance completed", "timestamp": "2024-11-29T10:00:00Z" },
+        { "event": "Arrived at customs", "timestamp": "2024-11-28T18:00:00Z" },
+        { "event": "Departed origin country", "timestamp": "2024-11-28T08:00:00Z" },
+        { "event": "Package dispatched", "timestamp": "2024-11-27T11:00:00Z" }
+      ]
+    },
+    {
+      "id": "SH003",
+      "productName": "Samsung Galaxy S24",
+      "source": "Seoul, South Korea",
+      "destination": "Toronto, Canada",
+      "status": "delayed",
+      "lastUpdated": "2024-11-29T08:20:00Z",
+      "estimatedDelivery": "2024-12-08",
+      "productImage": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-18T14:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-19T10:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-20T09:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-21T07:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": null, "completed": false }
+      ],
+      "logs": [
+        { "event": "Shipment delayed due to weather conditions", "timestamp": "2024-11-29T08:20:00Z" },
+        { "event": "Package held at transit hub", "timestamp": "2024-11-28T14:00:00Z" },
+        { "event": "In transit", "timestamp": "2024-11-26T11:00:00Z" },
+        { "event": "Customs processing", "timestamp": "2024-11-24T09:00:00Z" },
+        { "event": "Package dispatched", "timestamp": "2024-11-20T09:00:00Z" }
+      ]
+    },
+    {
+      "id": "SH004",
+      "productName": "Sony WH-1000XM5",
+      "source": "Tokyo, Japan",
+      "destination": "Berlin, Germany",
+      "status": "in_transit",
+      "lastUpdated": "2024-11-30T12:00:00Z",
+      "estimatedDelivery": "2024-12-03",
+      "productImage": "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-24T10:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-25T08:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-26T13:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-27T06:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": null, "completed": false }
+      ],
+      "logs": [
+        { "event": "Package in transit", "timestamp": "2024-11-30T12:00:00Z" },
+        { "event": "Arrived at regional hub", "timestamp": "2024-11-29T16:00:00Z" },
+        { "event": "Customs cleared", "timestamp": "2024-11-28T11:00:00Z" },
+        { "event": "International departure", "timestamp": "2024-11-27T06:00:00Z" },
+        { "event": "Package dispatched", "timestamp": "2024-11-26T13:00:00Z" }
+      ]
+    },
+    {
+      "id": "SH005",
+      "productName": "Dell XPS 15",
+      "source": "Austin, TX",
+      "destination": "Sydney, Australia",
+      "status": "delivered",
+      "lastUpdated": "2024-11-27T09:15:00Z",
+      "estimatedDelivery": "2024-11-27",
+      "productImage": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-15T11:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-16T09:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-17T10:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-18T08:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": "2024-11-27T09:15:00Z", "completed": true }
+      ],
+      "logs": [
+        { "event": "Package delivered successfully", "timestamp": "2024-11-27T09:15:00Z" },
+        { "event": "Out for delivery", "timestamp": "2024-11-27T06:00:00Z" },
+        { "event": "Arrived at local facility", "timestamp": "2024-11-26T14:00:00Z" },
+        { "event": "In transit", "timestamp": "2024-11-23T10:00:00Z" },
+        { "event": "Package dispatched", "timestamp": "2024-11-17T10:00:00Z" }
+      ]
+    },
+    {
+      "id": "SH006",
+      "productName": "iPad Pro 12.9",
+      "source": "Cupertino, CA",
+      "destination": "Mumbai, India",
+      "status": "in_transit",
+      "lastUpdated": "2024-11-30T18:30:00Z",
+      "estimatedDelivery": "2024-12-06",
+      "productImage": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-26T13:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-27T10:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-28T12:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-29T07:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": null, "completed": false }
+      ],
+      "logs": [
+        { "event": "Package in transit", "timestamp": "2024-11-30T18:30:00Z" },
+        { "event": "Departed international hub", "timestamp": "2024-11-30T02:00:00Z" },
+        { "event": "Processing at hub", "timestamp": "2024-11-29T15:00:00Z" },
+        { "event": "In transit", "timestamp": "2024-11-29T07:00:00Z" },
+        { "event": "Package dispatched", "timestamp": "2024-11-28T12:00:00Z" }
+      ]
+    },
+    {
+      "id": "SH007",
+      "productName": "Nintendo Switch OLED",
+      "source": "Kyoto, Japan",
+      "destination": "Paris, France",
+      "status": "delayed",
+      "lastUpdated": "2024-11-30T10:00:00Z",
+      "estimatedDelivery": "2024-12-10",
+      "productImage": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-19T09:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-20T11:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-21T08:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-22T10:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": null, "completed": false }
+      ],
+      "logs": [
+        { "event": "Delayed due to customs inspection", "timestamp": "2024-11-30T10:00:00Z" },
+        { "event": "Held at customs", "timestamp": "2024-11-29T13:00:00Z" },
+        { "event": "Arrived at destination country", "timestamp": "2024-11-28T09:00:00Z" },
+        { "event": "In transit", "timestamp": "2024-11-25T11:00:00Z" },
+        { "event": "Package dispatched", "timestamp": "2024-11-21T08:00:00Z" }
+      ]
+    },
+    {
+      "id": "SH008",
+      "productName": "AirPods Pro 2",
+      "source": "Shenzhen, China",
+      "destination": "Los Angeles, CA",
+      "status": "delivered",
+      "lastUpdated": "2024-11-26T14:20:00Z",
+      "estimatedDelivery": "2024-11-26",
+      "productImage": "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=400",
+      "timeline": [
+        { "status": "ordered", "timestamp": "2024-11-20T07:00:00Z", "completed": true },
+        { "status": "packed", "timestamp": "2024-11-21T09:00:00Z", "completed": true },
+        { "status": "dispatched", "timestamp": "2024-11-22T11:00:00Z", "completed": true },
+        { "status": "in_transit", "timestamp": "2024-11-23T08:00:00Z", "completed": true },
+        { "status": "delivered", "timestamp": "2024-11-26T14:20:00Z", "completed": true }
+      ],
+      "logs": [
+        { "event": "Package delivered successfully", "timestamp": "2024-11-26T14:20:00Z" },
+        { "event": "Out for delivery", "timestamp": "2024-11-26T08:00:00Z" },
+        { "event": "Arrived at delivery station", "timestamp": "2024-11-25T19:00:00Z" },
+        { "event": "In transit", "timestamp": "2024-11-24T10:00:00Z" },
+        { "event": "Package dispatched", "timestamp": "2024-11-22T11:00:00Z" }
+      ]
+    }
+  ]
+}
