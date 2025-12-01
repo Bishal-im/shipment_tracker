@@ -1,103 +1,119 @@
-🌐 Deployment
-Deploy to Vercel
+## 🌐 Deployment
 
-Push your code to GitHub
-Import project on Vercel
-Deploy automatically
+### **Deploy to Vercel**
+1. Push your code to GitHub  
+2. Import your repository on Vercel  
+3. Deploy automatically — zero configuration required  
 
-Or use Vercel CLI:
-bashnpm i -g vercel
+#### **Or deploy using the Vercel CLI**
+```bash
+npm i -g vercel
 vercel
-📚 Libraries Used
-LibraryPurposeNext.js 14React framework with App RouterTypeScriptType safety and better DXTailwind CSSUtility-first CSS frameworkLucide ReactBeautiful icon setReact HooksState management (useState, useEffect, useMemo)
-✨ Key Features Implementation
-Authentication (Part 1)
+```
 
-Form validation for email and password
-Clean UI with error states
-Redirects to dashboard on successful login
+---
 
-Dashboard (Part 2)
+## 📚 Libraries Used
 
-Overview cards showing shipment statistics
-Fully featured table with:
+| Library        | Purpose |
+|----------------|---------|
+| **Next.js 14** | React framework with App Router |
+| **TypeScript** | Type safety and better DX |
+| **Tailwind CSS** | Utility-first styling |
+| **Lucide React** | Modern, clean icon set |
+| **React Hooks** | State & lifecycle management (`useState`, `useEffect`, `useMemo`) |
 
-Search by ID or Product Name
-Sorting on ID, Product Name, Status, and Last Updated
-Pagination (5 items per page)
+---
 
+## ✨ Key Features Implementation
 
+### **🔐 Authentication**
+- Email & password form validation  
+- Clean UI with helpful error states  
+- Automatic redirect to dashboard after successful login  
 
-Shipment Details (Part 3)
+### **📊 Dashboard**
+- Overview cards showing shipment statistics  
+- Fully functional data table with:  
+  - Search (by ID or Product Name)  
+  - Sorting (ID, Product Name, Status, Last Updated)  
+  - Pagination (5 items/page)  
 
-Dynamic routing (/shipment/[id])
-Visual timeline showing order progress
-Product image display
-Last 5 activity logs
-Status badge with color coding
+### **📦 Shipment Details**
+- Dynamic routing: `/shipment/[id]`  
+- Visual timeline showing order progress  
+- Product image preview  
+- Last 5 activity logs  
+- Color-coded status badge  
 
-API Integration (Part 4)
+### **🔗 API Integration**
+- Loading states with spinner  
+- Error handling + retry flow  
+- Clean async/await data fetching  
+- Proper state management using hooks  
 
-Loading states with spinner
-Error handling with retry option
-Clean data fetching with async/await
-Proper state management
+### **💎 UI/UX**
+- Fully responsive layout  
+- Modern, minimalistic design  
+- Reusable components  
+- Professional folder structure  
+- Status-based color badges  
 
-UI/UX (Part 5)
+---
 
-Fully responsive on all devices
-Modern, clean design
-Reusable components
-Professional folder structure
-Color-coded status badges
+## 🎨 Design Highlights
 
-🎨 Design Highlights
+- **Color Scheme:** Indigo primary + status colors  
+- **Typography:** Clean, readable, structured  
+- **Spacing:** Consistent margins & padding  
+- **Interactions:** Smooth hover transitions  
 
-Color Scheme: Indigo primary with status-specific colors
-Typography: Clean, readable fonts with proper hierarchy
-Spacing: Consistent padding and margins
-Interactions: Smooth hover effects and transitions
-Status Colors:
+### **Status Colors**
+- 🟢 **Delivered**
+- 🟡 **In Transit**
+- 🔴 **Delayed**
+- 🔵 **Ordered**
 
-🟢 Green: Delivered
-🟡 Yellow: In Transit
-🔴 Red: Delayed
-🔵 Blue: Ordered
+---
 
+## ⚡ Performance
 
+- Fast page loads with App Router  
+- Client-side rendering for interactive parts  
+- Optimized images using Next.js Image  
+- Efficient memoization with `useMemo`  
 
-📊 Performance
+---
 
-Client-side rendering for interactive components
-Optimized images with Next.js Image component
-Efficient state management with useMemo
-Fast page loads with App Router
+## 🔧 Configuration
 
-🔧 Configuration
-Tailwind CSS
-Pre-configured in tailwind.config.ts
-TypeScript
-Strict mode enabled in tsconfig.json
-ESLint
-Code quality checks configured
-🐛 Troubleshooting
-Issue: Images not loading
+### **Tailwind CSS**
+- Preconfigured in `tailwind.config.ts`
 
-Check next.config.js has correct image domains
+### **TypeScript**
+- Strict mode enabled in `tsconfig.json`
 
-Issue: Build errors
+### **ESLint**
+- Ready-to-use code quality rules  
 
-Run npm install to ensure all dependencies are installed
-Clear .next folder and rebuild
+---
 
-📝 License
-This project is created for the Snipe Blockchain technical assessment.
+## 🐛 Troubleshooting
 
-👨‍💻 Developer
-Built for Snipe Blockchain Frontend Developer Assessment
+**Images not loading?**  
+- Check allowed domains in `next.config.js`
 
+**Build errors?**  
+- Run `npm install` to restore dependencies  
+- Delete `.next/` folder and rebuild  
 
+---
 
+## 📝 License
+Created exclusively for the **Snipe Blockchain Technical Assessment**.
 
-👨‍💻 Developer
-Built with ❤️ for the Snipe Blockchain Frontend Developer Assessment
+---
+
+## 👨‍💻 Developer
+Built with ❤️ for the **Snipe Blockchain Frontend Developer Assessment**.
+
