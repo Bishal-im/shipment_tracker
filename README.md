@@ -52,6 +52,26 @@ https://shipment-tracker-chi.vercel.app/
 
 ---
 
+## 📁 Project Structure
+
+├── app/
+│   ├── dashboard/          # Dashboard page
+│   ├── shipment/[id]/      # Dynamic shipment details
+│   ├── signup/             # Signup page
+│   ├── page.tsx            # Login page
+│   └── layout.tsx          # Root layout
+├── components/
+│   ├── dashboard/          # Dashboard components
+│   └── Navbar.tsx          # Navigation
+├── lib/
+│   └── AuthContext.tsx     # Authentication context
+└── public/
+    └── data/
+        └── shipments.json  # Mock API data
+
+
+---
+
 ## 🎨 Design Highlights
 
 - **Color Scheme:** Indigo primary + status colors  
@@ -75,7 +95,18 @@ https://shipment-tracker-chi.vercel.app/
 - Efficient memoization with `useMemo`  
 
 ---
+## 🖼️ Screenshots
 
+- Login page :-
+   <img width="1669" height="811" alt="Screenshot 2025-12-01 145945" src="https://github.com/user-attachments/assets/11747a6b-0e2b-4b36-96dc-71aa37bfa416" />
+
+- Dashboard ( shipment tables ) :- 
+  <img width="1716" height="880" alt="Screenshot 2025-12-01 150007" src="https://github.com/user-attachments/assets/33f4d64b-ef72-4ed9-bf11-18d932c1e633" />
+
+- Shipment Details :-
+   <img width="1679" height="849" alt="Screenshot 2025-12-01 150030" src="https://github.com/user-attachments/assets/8faf3489-9eca-4359-ae1f-446fba912181" />
+
+---
 ## 🔧 Configuration
 
 ### **Tailwind CSS**
