@@ -1,16 +1,7 @@
 ## 🌐 Deployment
 
 ### **Deploy to Vercel**
-1. Push your code to GitHub  
-2. Import your repository on Vercel  
-3. Deploy automatically — zero configuration required  
-
-#### **Or deploy using the Vercel CLI**
-```bash
-npm i -g vercel
-vercel
-```
-
+https://shipment-tracker-chi.vercel.app/
 ---
 
 ## 📚 Libraries Used
