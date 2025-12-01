@@ -1,17 +1,11 @@
 🌐 Deployment
 Deploy to Vercel
+https://shipmenttracker-gold.vercel.app/
 
-Push your code to GitHub
-Import project on Vercel
-Deploy automatically
 
-Or use Vercel CLI:
-bashnpm i -g vercel
-vercel
-📚 Libraries Used
-LibraryPurposeNext.js 14React framework with App RouterTypeScriptType safety and better DXTailwind CSSUtility-first CSS frameworkLucide ReactBeautiful icon setReact HooksState management (useState, useEffect, useMemo)
-✨ Key Features Implementation
-Authentication (Part 1)
+✨ Key Features Implementation:-
+
+Authentication (Part 1):-
 
 Form validation for email and password
 Clean UI with error states
