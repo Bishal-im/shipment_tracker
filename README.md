@@ -53,8 +53,7 @@ https://shipment-tracker-chi.vercel.app/
 ---
 
 ## 📁 Project Structure
-
-
+```
 ├── app/
 │   ├── dashboard/          # Dashboard page
 │   ├── shipment/[id]/      # Dynamic shipment details
@@ -69,6 +68,7 @@ https://shipment-tracker-chi.vercel.app/
 └── public/
     └── data/
         └── shipments.json  # Mock API data
+```
 
 ---
 
